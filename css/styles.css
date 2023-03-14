@@ -122,18 +122,18 @@ nav ul li a:hover {
 
     color: white;
     margin-bottom: 100px;
-    text-align:center;
+    text-align:left;
     transform: translateX(-20px);
     transition: transform 0.5s;
     }
-.header-block .text p{
-    max-width: 200px;
-    color: white;
-    text-align: left;
-    transform: translateX(-20px);
-    transition: transform 0.4s;
-
-}
+    .header-block .text p{
+        max-width: 60%;
+        color: white;
+        text-align:left ;
+        transform: translateX(-20px);
+        transition: transform 0.4s;
+    
+    }
 
 /*catalogo de carros*/
 
@@ -212,7 +212,7 @@ section .card-item{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
+    padding: 10px;
 }
 
 .card-item img{
@@ -230,8 +230,8 @@ section .card-item{
     
 }
 .card-item button{
-    width: 90%;
-    padding: 15px 0px;
+    width: 100%;
+    padding: 15px 50px;
     border: none;
     background: var(--blue);
     border-radius: 4px;
